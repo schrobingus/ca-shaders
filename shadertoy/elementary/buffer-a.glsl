@@ -1,7 +1,5 @@
 
-float detail = 64.0;
-int rule = 110;
-float secondsPerUpdate = 1.0/30.0;
+// All parameters are set in Common.
 
 float eca(float a, float b, float c, int rule) {
     int idx = int(a) * 4 + int(b) * 2 + int(c);
